@@ -1,4 +1,11 @@
-#https://github.com/sandeepmistry/arduino-LoRa#semtech-sx1276777879-wiring
-https://www.tindie.com/products/m2m/lora-module-for-breadboard-with-antenna/
-
-#Uno R3
+- Open a terminal on your Raspberry Pi.
+- Create a directory, type: mkdir lorawan_gateway
+- Goto the directory, type: cd lorawan_gateway
+Download the Single Channel LoRaWAN Gateway, type: 
+#git clone https://github.com/akarawat/single_chan_pkt_fwd.git
+Goto the sub directory, type: cd single_chan_pkt_fwd
+- Edit file main.cpp, type:
+# sudo nano main.cpp
+Make changes to the configuration according to your situation
+* Frequency
+* IP/Port For TTN or MQTT Server or UDP Server
