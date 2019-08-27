@@ -1,0 +1,4 @@
+#https://github.com/sandeepmistry/arduino-LoRa#semtech-sx1276777879-wiring
+https://www.tindie.com/products/m2m/lora-module-for-breadboard-with-antenna/
+
+#Uno R3
